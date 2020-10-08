@@ -190,4 +190,5 @@
 
 <!--- Note: this at least works for playlists from https://insighttimer.com/ --->
 
+<!--- ffmpeg -f concat -i mylist.txt -c copy -bsf:a aac_adtstoasc some.mp4 --->
 <!--- ffmpeg -allowed_extensions "ALL" -protocol_whitelist "file,http,https,tcp,tls,crypto" -i "https://insight-hls-amd1.akamaized.net/libraryitems-hls/d7w3j7p4u1v0u2b6e8w2y0k7z4m1n9g8t2s1g5e0/index.m3u8" -c copy -bsf:a aac_adtstoasc output.mp4 --->
